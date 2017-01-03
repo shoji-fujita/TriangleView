@@ -12,6 +12,7 @@
 		CED5FD021E17613800CDC110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED5FD001E17613800CDC110 /* Main.storyboard */; };
 		CED5FD041E17613800CDC110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5FD031E17613800CDC110 /* Assets.xcassets */; };
 		CED5FD071E17613800CDC110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED5FD051E17613800CDC110 /* LaunchScreen.storyboard */; };
+		CED5FD0F1E17614A00CDC110 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5FD0E1E17614A00CDC110 /* TriangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CED5FD031E17613800CDC110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED5FD061E17613800CDC110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED5FD081E17613800CDC110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED5FD0E1E17614A00CDC110 /* TriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CED5FCFC1E17613700CDC110 /* AppDelegate.swift */,
 				CED5FCFE1E17613700CDC110 /* ViewController.swift */,
+				CED5FD0E1E17614A00CDC110 /* TriangleView.swift */,
 				CED5FD001E17613800CDC110 /* Main.storyboard */,
 				CED5FD031E17613800CDC110 /* Assets.xcassets */,
 				CED5FD051E17613800CDC110 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED5FCFF1E17613700CDC110 /* ViewController.swift in Sources */,
+				CED5FD0F1E17614A00CDC110 /* TriangleView.swift in Sources */,
 				CED5FCFD1E17613700CDC110 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
